@@ -1,0 +1,184 @@
+.navbar {
+    padding: 1rem 2rem;
+    height: 70px;
+}
+
+.bg-light {
+    background: #272226 !important;
+}
+
+// .test {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 100%;
+//     height: 100%;
+//     padding-bottom: 120.5px;
+// }
+
+.navbar a {
+    color: #fff !important;
+}
+
+.navbar a:hover {
+    color: #e97ada !important;
+}
+
+.active a {
+    color: #ebd871 !important;
+}
+
+.dropdown-menu a {
+    color: #272226 !important;
+}
+
+.container {
+    max-width: 1450px;
+    margin-bottom: 15px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 120.5px;
+}
+
+
+.align-middle {
+    align-items: center;
+    height: 90%;
+}
+
+.col {
+    padding: 20px;
+}
+
+.col-white {
+    background: #fff;
+}
+
+.col-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.col-title-block {
+    display: block;
+    width: 100%;
+}
+
+.col-justify {
+    text-align: justify;
+}
+
+.col-align-right {
+    text-align: right;
+}
+
+.btn-light {
+    background: #fff !important;
+    border: none !important;
+}
+
+.btn-light:hover {
+    background: #e97ada !important;
+}
+
+.btn-light.focus,
+.btn-light:focus {
+    box-shadow: 0 0 0 .2rem #ff48e7;
+}
+
+.modal-content {
+    padding: 10px;
+}
+
+.card {
+    color: #272226;
+}
+
+.foot {
+    text-align: center;
+    height: 70px;
+    color: #fff;
+    width: 100%;
+    margin: 20px auto 0 auto;
+}
+
+.dropdown-menu {
+    margin-bottom: 10px;
+}
+
+.homePage {
+    overflow: hidden;
+    position: relative;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .container {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .container-middle {
+        height: 90%;
+    }
+
+    .align-middle {
+        padding-top: 10%;
+        height: 70%;
+        padding-bottom: 10%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-1 {
+        display: none;
+        visibility: hidden;
+    }
+
+    .col,
+    .col-align-right,
+    .align-left .align-right {
+        text-align: center;
+    }
+
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        max-width: 90%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+}
