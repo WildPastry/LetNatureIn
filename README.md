@@ -17,9 +17,9 @@ Class project work. Sources include:
     popper
     jquery
 
-## Timeline
+## Project
 
-Mental Health Awareness Week will be held from Monday 8th to Sunday 14th October 2018.
+A visual page to promote Mental Health Awareness Week
 
 ## Copyright
 
